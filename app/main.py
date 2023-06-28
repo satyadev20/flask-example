@@ -12,3 +12,6 @@ def read_root():
 @app.get("/satya")
 def read_root():
     return {"Hello": "Satya"}
+@app.get("/dev")
+def read_root():
+    return {"Hello": "Dev"}
